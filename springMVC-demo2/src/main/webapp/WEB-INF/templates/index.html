@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<h1>首页</h1>
+<a th:href="@{/testRequestMapping}">测试RequestMapping注解的位置</a><br/>
+<a th:href="@{/testRequestMapping}">测试RequestMapping注解的value属性--->/testRequestMapping</a><br/>
+<a th:href="@{/testRequestMapping}">测试RequestMapping注解的value属性--->/test</a><br/>
+
+<a th:href ="@{/test1}">测试@RequestMapping的value属性--->/test</a><br/>
+<a th:href ="@{/testRequestMapping1}">测试@RequestMapping的value属性--->/testRequestMapping</a><br/>
+
+</body>
+</html>
